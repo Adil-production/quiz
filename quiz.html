@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>quiz</title>
+    <style>
+         *{
+            font-family: 'Montserrat', sans-serif;
+        }
+        body{
+            background: rgb(189,0,255);
+            background: linear-gradient(90deg, rgba(189,0,255,1) 0%, rgba(0,83,255,1) 100%);        
+
+        }
+        .btn{
+            border: 0px;
+            border-radius: 50px;
+            padding: 10px;
+            
+            background: rgb(255,0,152);
+background: linear-gradient(90deg, rgba(255,0,152,1) 0%, rgba(0,16,182,1) 100%);
+            color: white;
+    }
+        .contain{
+            background-color: white;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        #final{
+           
+        }
+        h2 {
+    
+}
+    </style>
+</head>
+<body>
+    <br>
+
+    <div align="left">
+        <span style="color: white; position: fixed;" class="btn" onclick="rojo()">🡠</span>
+    <script>
+        function rojo(){
+            if (confirm('your answers will be not saved ! are you sure to go back ?')) {
+                window.location.href = "radio.html";
+} else {
+  
+
+  
+}
+            
+        }
+    </script>
+    </div>
+
+    <br>
+      <br>
+    <br>
+    
+
+    <div align="left" id="Q1" class="contain">
+        &nbsp; 1.  <br><br>
+   <input type="radio" id="1" name="Q1"><label>&nbsp;&nbsp; A.  What’s like Paris?  </label>
+   <br>
+   <br>
+   <input type="radio" id="2" name="Q1"><label>&nbsp;&nbsp; B.  How’s Paris?  </label>
+   <br>
+   <br>
+   <input type="radio" id="3" name="Q1"><label>&nbsp;&nbsp; C.  What’s Paris like? </label>
+   <br>
+   <br>
+   <input type="radio" id="4" name="Q1"><label>&nbsp;&nbsp; D.  How Paris is? </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q2" class="contain">
+        &nbsp; 2.  <br><br>
+   <input type="radio" id="5" name="Q2"><label>&nbsp;&nbsp; A.  Mark usually eats fast.  </label>
+   <br>
+   <br>
+   <input type="radio" id="6" name="Q2"><label>&nbsp;&nbsp; B.  Mark fast eats usually   </label>
+   <br>
+   <br>
+   <input type="radio" id="7" name="Q2"><label>&nbsp;&nbsp; C.  Mark fast usually eats.   </label>
+   <br>
+   <br>
+   <input type="radio" id="8" name="Q2"><label>&nbsp;&nbsp; D.  Mark usually fast eats   </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br  id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q3" class="contain">
+        &nbsp; 3. The party was a disaster. There ..... there! <br><br>
+   <input type="radio" id="9" name="Q3"><label>&nbsp;&nbsp; A.  wasn’t nobody  </label>
+   <br>
+   <br>
+   <input type="radio" id="10" name="Q3"><label>&nbsp;&nbsp; B.  was anybody     </label>
+   <br>
+   <br>
+   <input type="radio" id="11" name="Q3"><label>&nbsp;&nbsp; C.  was nobody   </label>
+   <br>
+   <br>
+   <input type="radio" id="12" name="Q3"><label>&nbsp;&nbsp; D.  was somebody     </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q4" class="contain">
+        &nbsp; 4. I’ve lost my passport. I can’t find it ..... <br><br>
+   <input type="radio" id="13" name="Q4"><label>&nbsp;&nbsp; A.  anywhere.  </label>
+   <br>
+   <br>
+   <input type="radio" id="14" name="Q4"><label>&nbsp;&nbsp; B.  nowhere     </label>
+   <br>
+   <br>
+   <input type="radio" id="15" name="Q4"><label>&nbsp;&nbsp; C.  was nobody   </label>
+   <br>
+   <br>
+   <input type="radio" id="16" name="Q4"><label>&nbsp;&nbsp; D.  somewhere.      </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q5" class="contain">
+        &nbsp; 5. Have you...? <br><br>
+   <input type="radio" id="17" name="Q5"><label>&nbsp;&nbsp; A.  got any friends in Barcelona   </label>
+   <br>
+   <br>
+   <input type="radio" id="18" name="Q5"><label>&nbsp;&nbsp; B.  not got no friends in Barcelona      </label>
+   <br>
+   <br>
+   <input type="radio" id="19" name="Q5"><label>&nbsp;&nbsp; C.  in Barcelona any friends   </label>
+   <br>
+   <br>
+   <input type="radio" id="20" name="Q5"><label>&nbsp;&nbsp; D.  friends in Barcelona got      </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q6" class="contain">
+        &nbsp; 6. <br><br>
+   <input type="radio" id="21" name="Q6"><label>&nbsp;&nbsp; A.  He never comes after 2:30   </label>
+   <br>
+   <br>
+   <input type="radio" id="22" name="Q6"><label>&nbsp;&nbsp; B.  He never after 2:30 comes       </label>
+   <br>
+   <br>
+   <input type="radio" id="23" name="Q6"><label>&nbsp;&nbsp; C.  He comes never after 2:30     </label>
+   <br>
+   <br>
+   <input type="radio" id="24" name="Q6"><label>&nbsp;&nbsp; D.  After 2:30 he never comes       </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q7" class="contain">
+        &nbsp; 7. <br><br>
+   <input type="radio" id="25" name="Q7"><label>&nbsp;&nbsp; A.  Taking train what you are?   </label>
+   <br>
+   <br>
+   <input type="radio" id="26" name="Q7"><label>&nbsp;&nbsp; B.  What train taking are you?       </label>
+   <br>
+   <br>
+   <input type="radio" id="27" name="Q7"><label>&nbsp;&nbsp; C.  Are you what train taking?      </label>
+   <br>
+   <br>
+   <input type="radio" id="28" name="Q7"><label>&nbsp;&nbsp; D.  What train are you taking?       </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q8" class="contain">
+        &nbsp; 8. Michael.........Paris in the morning <br><br>
+   <input type="radio" id="29" name="Q8"><label>&nbsp;&nbsp; A.  to leaving   </label>
+   <br>
+   <br>
+   <input type="radio" id="30" name="Q8"><label>&nbsp;&nbsp; B.  leaves for       </label>
+   <br>
+   <br>
+   <input type="radio" id="31" name="Q8"><label>&nbsp;&nbsp; C.  leaves for      </label>
+   <br>
+   <br>
+   <input type="radio" id="32" name="Q8"><label>&nbsp;&nbsp; D.  leave to         </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q9" class="contain">
+        &nbsp; 9. I'm going out .......some cigarettes <br><br>
+   <input type="radio" id="33" name="Q9"><label>&nbsp;&nbsp; A.  to buying   </label>
+   <br>
+   <br>
+   <input type="radio" id="34" name="Q9"><label>&nbsp;&nbsp; B.  for buying       </label>
+   <br>
+   <br>
+   <input type="radio" id="35" name="Q9"><label>&nbsp;&nbsp; C.  to buy      </label>
+   <br>
+   <br>
+   <input type="radio" id="36" name="Q9"><label>&nbsp;&nbsp; D.  for to buy          </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q10" class="contain">
+        &nbsp; 10. He says he's been robbed. He can't find his wallet ….. <br><br>
+   <input type="radio" id="37" name="Q10"><label>&nbsp;&nbsp; A.  not anywhere.   </label>
+   <br>
+   <br>
+   <input type="radio" id="38" name="Q10"><label>&nbsp;&nbsp; B.  nowhere       </label>
+   <br>
+   <br>
+   <input type="radio" id="39" name="Q10"><label>&nbsp;&nbsp; C.  anywhere      </label>
+   <br>
+   <br>
+   <input type="radio" id="40" name="Q10"><label>&nbsp;&nbsp; D.  somewhere.            </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q11" class="contain">
+        &nbsp; 11.  <br><br>
+   <input type="radio" id="41" name="Q11"><label>&nbsp;&nbsp; A.  Always he wakes up at 9:00.   </label>
+   <br>
+   <br>
+   <input type="radio" id="42" name="Q11"><label>&nbsp;&nbsp; B.  He wakes up at always 9:00.        </label>
+   <br>
+   <br>
+   <input type="radio" id="43" name="Q11"><label>&nbsp;&nbsp; C.  He always wakes up at 9:00.     </label>
+   <br>
+   <br>
+   <input type="radio" id="44" name="Q11"><label>&nbsp;&nbsp; D.  He wakes always up at 9:00.              </label>
+   <br>
+   <br>
+        
+    </div>
+
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q12" class="contain">
+        &nbsp; 12.  <br><br>
+   <input type="radio" id="45" name="Q12"><label>&nbsp;&nbsp; A.  Where playing Manchester United?   </label>
+   <br>
+   <br>
+   <input type="radio" id="46" name="Q12"><label>&nbsp;&nbsp; B.  Where is playing Manchester United?      </label>
+   <br>
+   <br>
+   <input type="radio" id="47" name="Q12"><label>&nbsp;&nbsp; C.  Where is Manchester United playing?     </label>
+   <br>
+   <br>
+   <input type="radio" id="48" name="Q12"><label>&nbsp;&nbsp; D.  Where playing is Manchester United?                </label>
+   <br>
+   <br>
+        
+    </div>
+
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q13" class="contain">
+        &nbsp; 13. Mark ..... fly to London tomorrow. <br><br>
+   <input type="radio" id="49" name="Q13"><label>&nbsp;&nbsp; A.  to going   </label>
+   <br>
+   <br>
+   <input type="radio" id="50" name="Q13"><label>&nbsp;&nbsp; B.  goes to      </label>
+   <br>
+   <br>
+   <input type="radio" id="51" name="Q13"><label>&nbsp;&nbsp; C.  is going to     </label>
+   <br>
+   <br>
+   <input type="radio" id="52" name="Q13"><label>&nbsp;&nbsp; D.  go to                </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q14" class="contain">
+        &nbsp; 14.  I have class …... <br><br>
+   <input type="radio" id="53" name="Q14"><label>&nbsp;&nbsp; A.  on Mondays   </label>
+   <br>
+   <br>
+   <input type="radio" id="54" name="Q14"><label>&nbsp;&nbsp; B.  in Mondays      </label>
+   <br>
+   <br>
+   <input type="radio" id="55" name="Q14"><label>&nbsp;&nbsp; C.  at Mondays      </label>
+   <br>
+   <br>
+   <input type="radio" id="56" name="Q14"><label>&nbsp;&nbsp; D.  by Mondays                </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q15" class="contain">
+        &nbsp; 15.   I wanted a purple bike but they only had ..... <br><br>
+   <input type="radio" id="57" name="Q15"><label>&nbsp;&nbsp; A.  a one green.   </label>
+   <br>
+   <br>
+   <input type="radio" id="58" name="Q15"><label>&nbsp;&nbsp; B.  one green.      </label>
+   <br>
+   <br>
+   <input type="radio" id="59" name="Q15"><label>&nbsp;&nbsp; C.  a green one.     </label>
+   <br>
+   <br>
+   <input type="radio" id="60" name="Q15"><label>&nbsp;&nbsp; D.  a green.                </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q16" class="contain">
+        &nbsp; 16.   He ….. breakfast yesterday <br><br>
+   <input type="radio" id="61" name="Q16"><label>&nbsp;&nbsp; A.  hadn’t   </label>
+   <br>
+   <br>
+   <input type="radio" id="62" name="Q16"><label>&nbsp;&nbsp; B.  no had        </label>
+   <br>
+   <br>
+   <input type="radio" id="63" name="Q16"><label>&nbsp;&nbsp; C.  didn’t have got       </label>
+   <br>
+   <br>
+   <input type="radio" id="64" name="Q16"><label>&nbsp;&nbsp; D.  didn’t have               </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q17" class="contain">
+        &nbsp; 17.   I have to go to the bank ..... some money. <br><br>
+   <input type="radio" id="65" name="Q17"><label>&nbsp;&nbsp; A.   for getting   </label>
+   <br>
+   <br>
+   <input type="radio" id="66" name="Q17"><label>&nbsp;&nbsp; B.  to get        </label>
+   <br>
+   <br>
+   <input type="radio" id="67" name="Q17"><label>&nbsp;&nbsp; C.  to getting         </label>
+   <br>
+   <br>
+   <input type="radio" id="68" name="Q17"><label>&nbsp;&nbsp; D.  for to get               </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q18" class="contain">
+        &nbsp; 18.   She arrived ..... Victoria Station half an hour late. <br><br>
+   <input type="radio" id="69" name="Q18"><label>&nbsp;&nbsp; A.   in   </label>
+   <br>
+   <br>
+   <input type="radio" id="70" name="Q18"><label>&nbsp;&nbsp; B.  at       </label>
+   <br>
+   <br>
+   <input type="radio" id="71" name="Q18"><label>&nbsp;&nbsp; C.  on         </label>
+   <br>
+   <br>
+   <input type="radio" id="72" name="Q18"><label>&nbsp;&nbsp; D.  by               </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q19" class="contain">
+        &nbsp; 19.   I haven’t seen your cousin .....over a year ago. <br><br>
+   <input type="radio" id="73" name="Q19"><label>&nbsp;&nbsp; A.   since      </label>
+   <br>
+   <br>
+   <input type="radio" id="74" name="Q19"><label>&nbsp;&nbsp; B.         </label>
+   <br>
+   <br>
+   <input type="radio" id="75" name="Q19"><label>&nbsp;&nbsp; C.  for           </label>
+   <br>
+   <br>
+   <input type="radio" id="76" name="Q19"><label>&nbsp;&nbsp; D.  during                 </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q20" class="contain">
+        &nbsp; 20.   I haven’t seen your cousin .....over a year ago. <br><br>
+   <input type="radio" id="77" name="Q20"><label>&nbsp;&nbsp; A.   since      </label>
+   <br>
+   <br>
+   <input type="radio" id="78" name="Q20"><label>&nbsp;&nbsp; B.         </label>
+   <br>
+   <br>
+   <input type="radio" id="79" name="Q20"><label>&nbsp;&nbsp; C.  for           </label>
+   <br>
+   <br>
+   <input type="radio" id="80" name="Q20"><label>&nbsp;&nbsp; D.  during              </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q21" class="contain">
+        &nbsp; 21.   He works for the Bank, .....? <br><br>
+   <input type="radio" id="81" name="Q21"><label>&nbsp;&nbsp; A.   doesn’t he?      </label>
+   <br>
+   <br>
+   <input type="radio" id="82" name="Q21"><label>&nbsp;&nbsp; B.  does he?        </label>
+   <br>
+   <br>
+   <input type="radio" id="83" name="Q21"><label>&nbsp;&nbsp; C.  isn’t he?           </label>
+   <br>
+   <br>
+   <input type="radio" id="84" name="Q21"><label>&nbsp;&nbsp; D.  didn’t he?              </label>
+   <br>
+   <br>
+        
+    </div>
+
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q22" class="contain">
+        &nbsp; 22.   Have you finished the shopping ..… ? <br><br>
+   <input type="radio" id="85" name="Q22"><label>&nbsp;&nbsp; A.   already         </label>
+   <br>
+   <br>
+   <input type="radio" id="86" name="Q22"><label>&nbsp;&nbsp; B.  still          </label>
+   <br>
+   <br>
+   <input type="radio" id="87" name="Q22"><label>&nbsp;&nbsp; C.  now             </label>
+   <br>
+   <br>
+   <input type="radio" id="88" name="Q22"><label>&nbsp;&nbsp; D.  yet                 </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q23" class="contain">
+        &nbsp; 23.   Tom is ..... Elizabeth how to copy it right now. <br><br>
+   <input type="radio" id="89" name="Q23"><label>&nbsp;&nbsp; A.   telling            </label>
+   <br>
+   <br>
+   <input type="radio" id="90" name="Q23"><label>&nbsp;&nbsp; B.  saying            </label>
+   <br>
+   <br>
+   <input type="radio" id="91" name="Q23"><label>&nbsp;&nbsp; C.  saying to             </label>
+   <br>
+   <br>
+   <input type="radio" id="92" name="Q23"><label>&nbsp;&nbsp; D.  telling to                   </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q24" class="contain">
+        &nbsp; 24.   “..... have you been going out with him?” “Only a few months” <br><br>
+   <input type="radio" id="93" name="Q24"><label>&nbsp;&nbsp; A.   How long            </label>
+   <br>
+   <br>
+   <input type="radio" id="94" name="Q24"><label>&nbsp;&nbsp; B.  How long time             </label>
+   <br>
+   <br>
+   <input type="radio" id="95" name="Q24"><label>&nbsp;&nbsp; C.  What time             </label>
+   <br>
+   <br>
+   <input type="radio" id="96" name="Q24"><label>&nbsp;&nbsp; D.  For how long                   </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q25" class="contain">
+        &nbsp; 25.  They weren’t happy about the new cat, and frankly, nor .... I. <br><br>
+   <input type="radio" id="97" name="Q25"><label>&nbsp;&nbsp; A.   weren’t               </label>
+   <br>
+   <br>
+   <input type="radio" id="98" name="Q25"><label>&nbsp;&nbsp; B.  wasn't               </label>
+   <br>
+   <br>
+   <input type="radio" id="99" name="Q25"><label>&nbsp;&nbsp; C.  were               </label>
+   <br>
+   <br>
+   <input type="radio" id="100" name="Q25"><label>&nbsp;&nbsp; D.  was                       </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q26" class="contain">
+        &nbsp; 26.  On a windy morning, I arrived ..... Chicago Airport. <br><br>
+   <input type="radio" id="101" name="Q26"><label>&nbsp;&nbsp; A.   in                  </label>
+   <br>
+   <br>
+   <input type="radio" id="102" name="Q26"><label>&nbsp;&nbsp; B.  on                 </label>
+   <br>
+   <br>
+   <input type="radio" id="103" name="Q26"><label>&nbsp;&nbsp; C.  at                  </label>
+   <br>
+   <br>
+   <input type="radio" id="104" name="Q26"><label>&nbsp;&nbsp; D.  by                         </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q27" class="contain">
+        &nbsp; 27.  I'm really looking forward ..... this exercise <br><br>
+   <input type="radio" id="105" name="Q27"><label>&nbsp;&nbsp; A.   to finish                  </label>
+   <br>
+   <br>
+   <input type="radio" id="106" name="Q27"><label>&nbsp;&nbsp; B.  finishing                   </label>
+   <br>
+   <br>
+   <input type="radio" id="107" name="Q27"><label>&nbsp;&nbsp; C.  finish                    </label>
+   <br>
+   <br>
+   <input type="radio" id="108" name="Q27"><label>&nbsp;&nbsp; D.  to finishing                         </label>
+   <br>
+   <br>
+        
+    </div>
+
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q28" class="contain">
+        &nbsp; 28.  Micheal ....for the Bank since last year. <br><br>
+   <input type="radio" id="109" name="Q28"><label>&nbsp;&nbsp; A.   did work                  </label>
+   <br>
+   <br>
+   <input type="radio" id="110" name="Q28"><label>&nbsp;&nbsp; B.  has worked                   </label>
+   <br>
+   <br>
+   <input type="radio" id="111" name="Q28"><label>&nbsp;&nbsp; C.  does work                     </label>
+   <br>
+   <br>
+   <input type="radio" id="112" name="Q28"><label>&nbsp;&nbsp; D.  works                           </label>
+   <br>
+   <br>
+        
+    </div>
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q29" class="contain">
+        &nbsp; 29.  <br><br>
+   <input type="radio" id="113" name="Q29"><label>&nbsp;&nbsp; A.    I told him that he come home at once .                  </label>
+   <br>
+   <br>
+   <input type="radio" id="114" name="Q29"><label>&nbsp;&nbsp; B.   I told he come home at once.                   </label>
+   <br>
+   <br>
+   <input type="radio" id="115" name="Q29"><label>&nbsp;&nbsp; C. I told him to come home at once.                     </label>
+   <br>
+   <br>
+   <input type="radio" id="116" name="Q29"><label>&nbsp;&nbsp; D. I itold,'come home at once!'                            </label>
+   <br>
+   <br>
+        
+    </div>
+
+
+    <br id="brs">
+    <br id="brs">
+
+    <div align="left" id="Q30" class="contain">
+        &nbsp; 30. My friends asked me to go to the cinema, But I said that I …the movie.  <br><br>
+   <input type="radio" id="117" name="Q30"><label>&nbsp;&nbsp; A.    had already been                  </label>
+   <br>
+   <br>
+   <input type="radio" id="118" name="Q30"><label>&nbsp;&nbsp; B.   had already saw                   </label>
+   <br>
+   <br>
+   <input type="radio" id="119" name="Q30"><label>&nbsp;&nbsp; C. had already seen                     </label>
+   <br>
+   <br>
+   <input type="radio" id="120" name="Q30"><label>&nbsp;&nbsp; D. already saw                            </label>
+   <br>
+   <br>
+        
+    </div>
+
+<br>
+<br>
+
+<div id="final" align="center">
+    <div align="center">
+        <h2 id="correctAn" style="color: white; display: none;">0</h2><h2 style="color: white; display: none;" id="/30">/30</h2>
+        <br>
+        <h2 style="color: white; display: none;" id="levelText">And your english level is :</h2><h2 style="color: white; display: none;" id="EnglishLevel"></h2>
+    </div>
+    <button onclick="sure()" class="btn">sure</button>
+</div>
+
+<script>
+    function sure(){
+
+        document.getElementById("correctAn").style.display = "inline-block";
+        document.getElementById("/30").style.display = "inline-block";
+        document.getElementById("EnglishLevel").style.display = "inline-block";
+        document.getElementById("levelText").style.display = "inline-block";
+        document.getElementById("Q1").style.display = "none";
+        document.getElementById("Q2").style.display = "none";
+        document.getElementById("Q3").style.display = "none";
+        document.getElementById("Q4").style.display = "none";
+        document.getElementById("Q5").style.display = "none";
+        document.getElementById("Q6").style.display = "none";
+        document.getElementById("Q7").style.display = "none";
+        document.getElementById("Q8").style.display = "none";
+        document.getElementById("Q9").style.display = "none";
+        document.getElementById("Q10").style.display = "none";
+        document.getElementById("Q11").style.display = "none";
+        document.getElementById("Q12").style.display = "none";
+        document.getElementById("Q13").style.display = "none";
+        document.getElementById("Q14").style.display = "none";
+        document.getElementById("Q15").style.display = "none";
+        document.getElementById("Q16").style.display = "none";
+        document.getElementById("Q17").style.display = "none";
+        document.getElementById("Q18").style.display = "none";
+        document.getElementById("Q19").style.display = "none";
+        document.getElementById("Q20").style.display = "none";
+        document.getElementById("Q21").style.display = "none";
+        document.getElementById("Q22").style.display = "none";
+        document.getElementById("Q23").style.display = "none";
+        document.getElementById("Q24").style.display = "none";
+        document.getElementById("Q25").style.display = "none";
+        document.getElementById("Q26").style.display = "none";
+        document.getElementById("Q27").style.display = "none";
+        document.getElementById("Q28").style.display = "none";
+        document.getElementById("Q29").style.display = "none";
+        document.getElementById("Q30").style.display = "none";
+
+
+        document.getElementById("final").style.position = "absolute";
+        document.getElementById("final").style.bottom = "0%";
+        document.getElementById("final").style.left = "50%";
+        document.getElementById("final").style.transform = "translate(-50%, 50%)";
+
+
+        if(document.getElementById("3").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("5").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("11").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("13").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("17").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("21").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("28").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("31").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("35").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("39").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("43").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("47").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("51").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("53").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("59").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("64").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("66").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("70").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("73").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("80").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("81").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("88").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("89").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("93").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("100").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("103").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("108").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("110").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("115").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+        if(document.getElementById("119").checked){
+           document.getElementById("correctAn").innerHTML = Number(document.getElementById("correctAn").innerHTML) + 1;
+        }
+
+        if(Number(document.getElementById("correctAn").innerHTML) >= 0 && Number(document.getElementById("correctAn").innerHTML) < 5){
+            document.getElementById("EnglishLevel").innerHTML = "A1";
+        }
+        if(Number(document.getElementById("correctAn").innerHTML) >= 5 && Number(document.getElementById("correctAn").innerHTML) < 10){
+            document.getElementById("EnglishLevel").innerHTML = "A2";
+        }
+        if(Number(document.getElementById("correctAn").innerHTML) >= 10 && Number(document.getElementById("correctAn").innerHTML) < 15){
+            document.getElementById("EnglishLevel").innerHTML = "B1";
+        }
+        if(Number(document.getElementById("correctAn").innerHTML) >= 15 && Number(document.getElementById("correctAn").innerHTML) < 20){
+            document.getElementById("EnglishLevel").innerHTML = "B2";
+        }
+        if(Number(document.getElementById("correctAn").innerHTML) >= 20 && Number(document.getElementById("correctAn").innerHTML) < 25){
+            document.getElementById("EnglishLevel").innerHTML = "C1";
+        }
+        if(Number(document.getElementById("correctAn").innerHTML) >= 25 && Number(document.getElementById("correctAn").innerHTML) < 30){
+            document.getElementById("EnglishLevel").innerHTML = "C2";
+        }
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+</body>
+</html>
